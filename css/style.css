@@ -1,0 +1,261 @@
+body {
+  background: url(../gallery/nasa-header-image.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+
+header nav .logo{
+  background: url(../gallery/header_logo_sprite.png) no-repeat;
+  width: 106px;
+  height: 30px;
+
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Lato";
+}
+
+.icon {
+margin-left: 25px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#menu-mobile{
+  display: none;
+}
+li {
+margin-right: 15px;
+
+}
+
+.logo_simplon {
+  width: 30px;
+}
+
+.carre {
+  width: 30px;
+  height: 30px;
+  border: white 2px solid;
+  border-radius: 2px;
+  text-align: center;
+
+}
+
+.test {
+  height: 50px;
+}
+
+h1 {
+  color: white;
+  margin-top: 200px;
+  font-size: 50px;
+  text-align: center;
+
+}
+
+.text {
+  color:  white;
+  font-size: 25px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+p {
+  color: white;
+}
+
+.bouton {
+  border:1px solid #56B68B;
+  background-color: #56B68B;
+  color: white;
+  width: 200px;
+height: 50px;
+border-radius: 5px;
+}
+
+form {
+  padding: 10px 40px 10px 40px;
+  background-color: rgba(0, 0, 0, 0.5);;
+  border: 1px solid black;
+  width: 500px;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.align {
+  justify-content: center;
+  align-items: center;
+
+}
+
+.input_mail {
+  width: 200px;
+  height: 50px;
+
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.curieux {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding-right: 10px;
+
+}
+
+.menu2 {
+
+  color: white;
+}
+
+.menu2 li {
+  list-style: none;
+  color: #9E9EA6;
+}
+
+#menu-bas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+footer {
+  border-top: 1px solid rgba(255, 225, 225, 0.5);
+background: rgba(15,15,15,0.12);
+background: -moz-linear-gradient(top, rgba(15,15,15,0.12) 0%, rgba(15,15,15,0.13) 1%, rgba(15,15,15,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(15,15,15,0.12)), color-stop(1%, rgba(15,15,15,0.13)), color-stop(100%, rgba(15,15,15,1)));
+background: -webkit-linear-gradient(top, rgba(15,15,15,0.12) 0%, rgba(15,15,15,0.13) 1%, rgba(15,15,15,1) 100%);
+background: -o-linear-gradient(top, rgba(15,15,15,0.12) 0%, rgba(15,15,15,0.13) 1%, rgba(15,15,15,1) 100%);
+background: -ms-linear-gradient(top, rgba(15,15,15,0.12) 0%, rgba(15,15,15,0.13) 1%, rgba(15,15,15,1) 100%);
+background: linear-gradient(to bottom, rgba(15,15,15,0.12) 0%, rgba(15,15,15,0.13) 1%, rgba(15,15,15,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f0f0f', endColorstr='#0f0f0f', GradientType=0 );
+
+
+}
+
+.social{
+  display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 250px;
+    margin: auto;
+    color: #9E9EA6;
+
+    border: 1px solid rgba(255,255,255,.12);
+    background-color: rgba(255,255,255,.12);
+
+}
+
+#contact {
+display: flex;
+align-items: center;
+
+}
+
+.slack {
+  background: url(../gallery/header_logo_sprite.png) no-repeat;
+
+  height: 30px;
+  width: 30px;
+}
+
+.rs {
+  margin-left: 20px;
+}
+
+.contenu {
+  display: block;
+}
+
+@media screen and (max-width:860px) {
+
+#menu-desktop {
+  display: none;
+}
+#menu-mobile{
+  display: flex;
+}
+
+.carre {
+  width: 55px;
+  height: 30px;
+}
+form {
+  flex-wrap: wrap;
+  padding: 20px 24px 20px 20px;
+  width: 100%;
+  background-color: #322E30;
+  display: flex;
+  flex-direction: column;
+  border: #322E30 1px solid;
+}
+
+#slogan-desktop {
+  display: none;
+}
+
+#slogan-mobile {
+  text-align: center;
+  background-color: #322E30;
+  box-sizing: border-box;
+  width: 100%;
+  height: 150px;
+
+}
+
+.curieux {
+  display: none;
+}
+
+  .contenu{
+    background-color: #322E30;
+  }
+
+#menu-bas{
+background-color:  #322E30;
+display: flex;
+flex-direction: column;
+}
+
+.menu2 {
+  border-top:1px black solid;
+  border-bottom: 1px white solid;
+  background-color: black;
+}
+
+.menu2 li {
+  display: none;
+}
+
+footer {
+  border-top: none;
+}
+
+.social {
+  background-color:  #322E30;
+  border-top: black 1px solid;
+
+}
+
+
+
+}

@@ -1,0 +1,84 @@
+body {
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+background-color: yellow;
+border: 1px solid yellow;
+}
+
+#menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 30px;
+  border-radius: 5px;
+}
+
+h1 {
+  color:#2b3645;
+  text-align: center;
+  margin-top: 100px;
+  font-weight: 900;
+  font-size:50px;
+}
+
+h3 {
+  color: #68686f;
+  text-align: center;
+}
+
+p {
+  color: white;
+}
+
+#card {
+display: flex;
+justify-content: space-around;
+margin-top: 70px;
+}
+
+.carte1 {
+  background-color: rgba(138,116,185,.95);
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+  width: 20%;
+  height: 250px;
+}
+
+.carte2 {
+  background-color: rgba(76,185,146,.95);
+  border-radius: 10px;
+  padding: 10 20 10 20;
+  width: 20%;
+}
+
+.carte3 {
+  background-color: rgba(52,153,224,.95);
+  border-radius: 10px;
+  padding: 10 20 10 20;
+  width: 20%;
+}
+
+.carte4 {
+  background-color: rgba(239,181,124,.95);
+  border-radius: 10px;
+  padding: 10 20 10 20;
+  width: 20%;
+}
+
+#bouton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
